@@ -1,0 +1,12 @@
+.discountBadge {
+  background-color: #ff9900;
+  color: white;
+  font-size: 15px;
+  padding: 6px 14px;
+  border-radius: 0 4px 4px 0;
+  display: inline-block;
+}
+
+.fa-tag {
+  padding-right: 10px;
+}

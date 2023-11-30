@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap");
+
+.nav {
+  position: relative;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 15px 0;
+}
+
+.nav-links-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link-items {
+  margin: 0 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #007bff;
+}
+
+.activeLink {
+  color: #007bff;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.header {
+  padding: 0;
+  background-color: white;
+  border-top: 1px solid #33333318;
+  border-bottom: 1px solid #33333318;
+}
+
+.title {
+  font-size: 100px;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 85px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 65px;
+  }
+}

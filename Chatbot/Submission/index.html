@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Mia</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="chatbot-interface">
+        <div class="bot-face">
+          <img class="robot-img" src="images/mia.jpg" alt="A robot" />
+        </div>
+
+        <div class="chat-container">
+          <form id="chat-form" class="chat-form">
+            <input
+              id="chat-input"
+              class="chat-input"
+              type="text"
+              placeholder="Enter your response here ..."
+              autocomplete="off"
+            />
+            <button class="btn-chat-send" type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="chatbox-container">
+          <div id="chatbox" class="chatbox">
+            <div class="chat-item chat-item-bot">
+              Hi, my name is Mia. What's yours?
+            </div>
+          </div>
+        </div>
+
+        <audio
+          id="woo"
+          src="/music/background-sound.mp3"
+          controls
+          autoplay
+          loop
+        >
+          <p>
+            If you are reading this, it is because your browser does not support
+            the audio element.
+          </p>
+        </audio>
+        <script>
+          const audio = document.getElementById("woo");
+          audio.volume = 0.05;
+        </script>
+      </div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="lib/index.js" type="module"></script>
+  </body>
+</html>

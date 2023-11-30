@@ -1,0 +1,15 @@
+.full-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.icon-cat {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.not-found-content {
+  text-align: center;
+}
