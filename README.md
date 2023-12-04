@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is created for the purpose of IT5016D Assessment 3 - Research Repository. The repository explores my learning journey of coding. The repository contains some of my own projects and some projects that I like and took insperation from. Below is a list (in no particular order) of the projects in this repository and a link to the folder containing the project. Within each folder is a REAMDME.md file that contains a description of the project.
+This repository is created for the purpose of IT5016D Assessment 3 - Research Repository. The repository explores my learning journey of coding. The repository contains some of my own projects and some projects that I like and/or took insperation from or used in my own projects. Below is a list (in no particular order) of the projects in this repository and a link to the folder containing the project. Within each folder is a REAMDME.md file that contains a description of the project, design principles explored in the project and instructions to view/use the project.
 
 ## Table of Contents
 

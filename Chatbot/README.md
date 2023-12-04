@@ -18,6 +18,10 @@ The chatbot is designed to be open for extension but closed for modification. Th
 
 The chatbot is designed to have a single responsibility. The chatbot is designed to ask the user questions and generate a response based on the answers to the questions. The chatbot is not designed to do anything else.
 
+- KISS
+
+The code for the bot is very simple. The user input sets the value of a variable and then the value of the variable is used to find the response in the decision tree. Just a whole lot of IF statements!
+
 ## Viewing the Project
 
  1. Clone the repository

@@ -12,7 +12,7 @@ This project was the first time I experimented with creating button animations w
 
 ## Design Principles
 
-- RDP
+- Repository Design Pattern (RDP)
 
 This project implements the RDP principle by separating the frontend and backend into their own folders. The frontend is in the client folder and the backend is in the server folder.
 
