@@ -8,6 +8,12 @@ Particles.js is a lightweight JavaScript library for creating particles. It is a
 
 It's a great display of the awesome things that can be done with JavaScript and I would highly recommend checking it out.
 
+## Design Principles
+
+- Clean Code > Clever Code
+
+The library is designed to be simple and easy to use. The library is designed to be clean and easy to understand. While there are complex operations happening in the background the library is well commented to make it easy to understand. You can understand what is happening in each section of the code.
+
 ## Viewing the Project
 
 A demo of the project can be found at the following link: http://vincentgarreau.com/particles.js/

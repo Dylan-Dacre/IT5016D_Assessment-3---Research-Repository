@@ -8,6 +8,20 @@ Project Source:
 
 - https://hackr.io/blog/python-projects
 
+## Design Principles
+
+- Clean Code > Clever Code
+
+This project implements the Clean Code > Clever Code principle by making sure the code is easy to read and understand. The code is very simple and easy to understand. There is no clever code that is hard to read and understand.
+
+- DRY
+
+The DRY principle is applied to this project by creating functions for repeated code. The check_play_status funtion is called at the end of each round to check if the user wants to play again. The main game loop is called to start the game and if the user wants to play again.
+
+- YAGNI
+
+This project implements the YAGNI principle by only implementing the features needed to play the game. There is no unnecessary features. You play the game and it displays the result of the game.
+
 ## Viewing the Project
 
 1. Clone the repository

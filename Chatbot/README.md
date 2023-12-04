@@ -8,6 +8,16 @@ The main code I developed for this project is in the \Submission\script.js file.
 
 This is the first project I used the particles.js library in. I used the library to create the interactive particle background of the chatbot. The library is displayed later in the research repository.
 
+## Design Principles
+
+- Open-Closed Principle
+
+The chatbot is designed to be open for extension but closed for modification. The chatbot is designed to be extended by adding more questions and responses to the decision tree. The chatbot is designed to be closed for modification by using a decision tree to generate the response.
+
+- Single Responsibility Principle
+
+The chatbot is designed to have a single responsibility. The chatbot is designed to ask the user questions and generate a response based on the answers to the questions. The chatbot is not designed to do anything else.
+
 ## Viewing the Project
 
  1. Clone the repository
